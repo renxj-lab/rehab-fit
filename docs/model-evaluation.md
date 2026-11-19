@@ -17,14 +17,24 @@ Four machine learning classification algorithms were evaluated for recognising s
 
 The Linear Support Vector Machine (SVM), configured with C=5, achieved the highest reported accuracy of approximately 96.30%.
 
-## 4. Evaluation Metrics
+## 4. Model Selection Rationale
+
+The Linear Support Vector Machine was selected as the final model because it achieved the highest accuracy and F1-score among the evaluated classifiers.
+
+Its performance indicates that the extracted sensor features provide useful information for distinguishing between the different physiotherapy movement categories.
+
+The final model was configured with a regularisation parameter of C=5.
+
+Further testing with unseen users and real-world sensor conditions is required to evaluate generalisation.
+
+## 5. Evaluation Metrics
 
 - Accuracy
 - Precision
 - Recall
 - F1-score
 
-## 5. Conclusion
+## 6. Conclusion
 
 Among the evaluated models, Linear SVM demonstrated the strongest overall accuracy and was selected as the final classification model based on the reported evaluation results.
 
