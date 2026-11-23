@@ -32,9 +32,9 @@ NOTIFY_UUID = "0000ffe4-0000-1000-8000-00805f9a34fb"
 # =====================================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-MODEL_PATH = os.path.join(BASE_DIR, "wt901_live_model.pkl")
-SCALER_PATH = os.path.join(BASE_DIR, "wt901_live_scaler.pkl")
-FEATURES_PATH = os.path.join(BASE_DIR, "wt901_live_features.pkl")
+MODEL_PATH = os.path.join(BASE_DIR, "..", "ml", "models", "wt901_live_model.pkl")
+SCALER_PATH = os.path.join(BASE_DIR, "..", "ml", "models", "wt901_live_scaler.pkl")
+FEATURES_PATH = os.path.join(BASE_DIR, "..", "ml", "models", "wt901_live_features.pkl")
 
 
 # =====================================================
