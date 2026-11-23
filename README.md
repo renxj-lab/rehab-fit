@@ -22,7 +22,7 @@ The system uses motion data collected from an IMU sensor to identify shoulder ex
 - Scikit-learn
 - NumPy and Pandas
 - React
-- FastAPI
+- Flask
 - ESP32
 - WT901BLE 9-axis IMU sensor
 - Bluetooth Low Energy (BLE)
